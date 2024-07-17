@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+#name{
+    color:blue;
+    align-items: center;
+    margin-left: 140px;
+}
+#name:hover{
+    color: rgb(217, 255, 0);
+    cursor: pointer;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image: url(../Img/priya\ prity.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: -15rem;
+    margin-left: -5rem;
+    font-size: 4rem;
+    align-items: center;
+    
+}
+
+p2{
+    font-size: 25px;
+}
+p2:hover{
+    color: yellow;
+}
+
+
+.countdown-container{
+    display:flex;
+    color: blue;
+    
+}
+.text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 3rem;
+}
+.text:hover{
+    color: white;
+}
+
+
+.countdownbox{
+    text-align: center;
+    
+}
